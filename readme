@@ -1,0 +1,14 @@
+# Lane Departure Warning System
+
+
+This project implements a lane departure warning system using OpenCV. It processes video frames to detect lane lines and provide warnings if the vehicle is drifting out of its lane.
+
+## Features
+
+- Lane line detection using Hough Line Transform.
+- Lane position calculation and warning display.
+- Turn signal toggle simulation.
+
+## Dependencies
+
+- OpenCV

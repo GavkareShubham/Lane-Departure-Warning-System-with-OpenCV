@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.5)
+project (OpenCVStudy)
+find_package(OpenCV REQUIRED)
+include_directories(${OpenCV_INCLUDE_DIRS})
+add_executable(cvtest lane_departure_warning.cpp)
+target_link_libraries(cvtest ${OpenCV_LIBS})
